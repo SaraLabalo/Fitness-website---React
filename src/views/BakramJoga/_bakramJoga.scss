@@ -1,0 +1,52 @@
+.padding0 {
+  padding: 0;
+}
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+@media screen and (min-width: 800px) {
+  th,
+  td {
+    padding: 10px;
+    font-size: 10px;
+    text-align: left;
+  }
+}
+
+.termin {
+  align-items: center;
+}
+.color {
+  background-color: #ff6347;
+  color: black;
+}
+.video {
+  align-content: center;
+  padding-left: 25%;
+  padding-bottom: 20px;
+}
+.terminiNaslov {
+  margin-left: 40%;
+}

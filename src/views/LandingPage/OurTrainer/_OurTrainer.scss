@@ -1,0 +1,22 @@
+.block-trainer-overlay {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s all ease;
+  background-color: rgba(153, 153, 153, 0.25);
+  opacity: 0;
+  h2 {
+    font-size: 20px;
+    color: "white";
+  }
+  a {
+    color: "white";
+  }
+}
+
+.block-trainer-overlay:hover {
+  opacity: 1;
+}
